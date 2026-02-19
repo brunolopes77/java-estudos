@@ -1,4 +1,4 @@
-package Semana1Introducao.Semana1Exercicios;
+package Semana1Exercicios;
 
 public class Ex01_NomeIdade {
     public static void main (String[] args){
