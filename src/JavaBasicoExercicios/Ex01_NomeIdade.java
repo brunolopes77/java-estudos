@@ -1,4 +1,4 @@
-package BasicJavaExercises;
+package JavaBasicoExercicios;
 
 public class Ex01_NomeIdade {
     public static void main (String[] args){

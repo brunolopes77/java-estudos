@@ -1,4 +1,4 @@
-package BasicJava;
+package JavaBasico;
 
 public class TiposPrimitivos {
     public static void main (String[] args){
