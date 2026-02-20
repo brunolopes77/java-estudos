@@ -1,4 +1,4 @@
-package Semana1Introducao;
+package BasicJava;
 
 public class OlaMundo {
     public static void main (String[] args){
