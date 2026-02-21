@@ -1,6 +1,6 @@
 package JavaBasico;
 
-public class TiposPrimitivos {
+public class Aula02TiposPrimitivos {
     public static void main (String[] args){
 
         int age = 18;//32bits

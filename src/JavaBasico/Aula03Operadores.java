@@ -1,6 +1,6 @@
 package JavaBasico;
 
-public class Operadores {
+public class Aula03Operadores {
     public static void main(String[] args) {
         // + - / *
         int number01 = 10;
