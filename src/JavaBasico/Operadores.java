@@ -47,6 +47,26 @@ public class Operadores {
         float playStantion5 = 5000;
         boolean isCanBuyPlaystation5 = contaCorrente >= playStantion5 || contaPoupanca >= playStantion5;
         System.out.println(isCanBuyPlaystation5);
+        System.out.println("----------------------------------------------------------------------");
 
+        // += -= *= /= %=
+        double bonus = 1800;
+        bonus += 1000;
+        bonus -= 1000;
+        bonus *= 2;
+        bonus /= 2;
+        bonus %= 2;
+        System.out.println(bonus);
+
+        // ++ --  Logica de incrementar antes e depois
+        int counter = 0;
+        counter++;
+        counter--;
+        ++counter;
+        --counter;
+        int counter2 = 0;
+        System.out.println(counter);
+        System.out.println(++counter2);//incremento antes
+        System.out.println(counter2++);//incremento depois
     }
 }
