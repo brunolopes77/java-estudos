@@ -1,6 +1,6 @@
 package JavaBasicoExercicios;
 
-public class Ex_07PartidaGols {
+public class Ex07_PartidaGols {
     public static void main(String[] args) {
         int time1 = 2;
         int time2 = 7;

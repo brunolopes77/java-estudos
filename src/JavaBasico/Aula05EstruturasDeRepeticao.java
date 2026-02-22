@@ -4,17 +4,19 @@ public class Aula05EstruturasDeRepeticao {
     public static void main(String[] args) {
         //while,do while,for
         int count = 0;
-        while(count < 10){
+        while (count < 10) {
             count++;
-            System.out.println("Contador while:"+count);
+            System.out.println("Contador while:" + count);
         }
         count = 0;
-        do{
+        do {
             count++;
-            System.out.println("Contador do-while: "+count);
-        }while(count < 10);
+            System.out.println("Contador do-while: " + count);
+        } while (count < 10);
 
-        for(;;)
+        for (int i = 0; i < 10; i++) {
+            System.out.println("contador for "+i);
+        }
     }
 
 }
