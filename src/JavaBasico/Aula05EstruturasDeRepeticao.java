@@ -13,5 +13,8 @@ public class Aula05EstruturasDeRepeticao {
             count++;
             System.out.println("Contador do-while: "+count);
         }while(count < 10);
+
+        for(;;)
     }
+
 }
