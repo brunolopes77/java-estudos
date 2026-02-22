@@ -1,6 +1,6 @@
 package JavaBasico.Aula04EstruturasCondicionais;
 
-public class Aula05EstruturasCondicionais04 {
+public class Aula04EstruturasCondicionais04 {
     public static void main(String[] args) {
         // imprima o dia da semana, considere 1 como domingo
         //switch : char,int,byte,short,enum,String
