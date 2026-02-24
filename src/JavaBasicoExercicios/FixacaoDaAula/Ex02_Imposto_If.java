@@ -1,4 +1,4 @@
-package JavaBasicoExercicios;
+package JavaBasicoExercicios.FixacaoDaAula;
 
 public class Ex02_Imposto_If {
     public static void main(String[] args) {

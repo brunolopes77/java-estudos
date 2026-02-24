@@ -1,4 +1,4 @@
-package JavaBasicoExercicios;
+package JavaBasicoExercicios.FixacaoDaAula;
 
 public class Ex09_ImprimirAteUmCertoNumero {
     public static void main(String[] args) {

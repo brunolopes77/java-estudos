@@ -1,4 +1,4 @@
-package JavaBasicoExercicios;
+package JavaBasicoExercicios.FixacaoDaAula;
 
 public class Ex04_DiaUtil02 {
     public static void main(String[] args) {

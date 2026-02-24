@@ -1,4 +1,4 @@
-package JavaBasicoExercicios;
+package JavaBasicoExercicios.FixacaoDaAula;
 
 public class Ex08_ImprimirNumerosPares {
     public static void main(String[] args) {
