@@ -2,11 +2,11 @@ package JavaBasicoExercicios.ExerciciosComplementares;
 
 public class CalculoDeFatorial {
     public static void main(String[] args) {
-        int fatorial = 8;
-        long resultado = 1;
-        for (int i = 1; i <= fatorial; i++) {
-            resultado *= i;
+        int fatorial1 = 7;
+        long resultado1 = 1;
+        for (int i = fatorial1; i >= 1 ; i--) {
+            resultado1 *= i;
         }
-        System.out.println(resultado);
+        System.out.println(resultado1);
     }
 }
