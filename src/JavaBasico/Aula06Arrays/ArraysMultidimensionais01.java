@@ -18,8 +18,11 @@ public class ArraysMultidimensionais01 {
         }
         System.out.println("--------------------------");
 
+        // arrBase[0] = dias [0]
+        //num = arrBase[0][0]
+        //System.out.println(num);
         for(int[]arrBase : dias){
-            for(int num : arrBase){
+            for(int num : arrBase){//vai passar em cada casa
                 System.out.println(num);
             }
         }

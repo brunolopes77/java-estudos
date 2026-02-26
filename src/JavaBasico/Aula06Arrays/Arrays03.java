@@ -7,6 +7,10 @@ public class Arrays03 {
         for (int i = 0; i < numeros1.length; i++) {
             System.out.println(numeros2[i]);
         }
+        // num = numeros2[0];
+        //system.out.println(num);
+        //num = numeros2[1];
+        //system.out.println(num);
         for (int num : numeros2){
             System.out.println(num);
         }
