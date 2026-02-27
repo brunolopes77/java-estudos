@@ -9,12 +9,12 @@ public class OrdemCrescente {
                     int mediadorDeTroca;
                     mediadorDeTroca = numeros[j];
                     numeros[j] = numeros[i];
-                    numeros[i] = mediadorDeTroca;;
+                    numeros[i] = mediadorDeTroca;
                 }
             }
         }
-        for (int i = 0; i < numeros.length; i++) {
-            System.out.print(numeros[i]);
+        for (int i : numeros) {
+            System.out.print(i);
         }
     }
 }
