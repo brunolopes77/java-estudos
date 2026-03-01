@@ -2,13 +2,9 @@ package POO.Introducaometodos.Test;
 
 import POO.Introducaometodos.dominio.Calculadora;
 
-public class CalculadoraTest01 {
+public class CalculadoraTest02 {
     public static void main(String[] args) {
         Calculadora calculadora = new Calculadora();
-        calculadora.somarDoisNumeros();
-        System.out.println("------");
-        calculadora.diminuirDoisnumeros();
-        System.out.println("------");
-
+        calculadora.multiplicarDoisNumeros(10,20);//argumentos
     }
 }
