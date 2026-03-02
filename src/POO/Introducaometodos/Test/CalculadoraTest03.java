@@ -8,6 +8,8 @@ public class CalculadoraTest03 {
         Calculadora calculadora = new Calculadora();
         double result = calculadora.dividirDoisNumeros(20,0);
         System.out.println(result);
+        System.out.println("----------------");
+        calculadora.imprimiDoisNumeros(20,0);
 
     }
 }
