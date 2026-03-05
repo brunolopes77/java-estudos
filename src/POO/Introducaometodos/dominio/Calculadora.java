@@ -21,7 +21,7 @@ public class Calculadora {
     public void imprimiDoisNumeros(double num1,double num2){
         if (num2 == 0){
             System.out.println("Nao existe divisao por zero");
-            return;
+            return;//como se fosse um break
         }
         System.out.println(num1/num2);
     }
