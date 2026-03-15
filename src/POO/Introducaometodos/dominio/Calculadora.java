@@ -31,5 +31,12 @@ public class Calculadora {
         System.out.println(num1);
         System.out.println(num2);
     }
+    public void somaVarArgs(int... numeros){
+        int soma = 0;
+        for (int num :numeros){
+            soma += num;
+        }
+        System.out.println(soma);
+    }
 
 }
