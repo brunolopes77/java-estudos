@@ -25,4 +25,11 @@ public class Calculadora {
         }
         System.out.println(num1/num2);
     }
+    public void imprimiDoisNumeros02 (int num1,int num2) {
+        num1 = 1;
+        num2 = 2;
+        System.out.println(num1);
+        System.out.println(num2);
+    }
+
 }
