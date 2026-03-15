@@ -18,8 +18,14 @@ public class EstudanteTest01 {
         estudante02.sexo = 'M';
 
         imprimeEstudante.imprime(estudante01);
+
         System.out.println("----------------------");
+
         imprimeEstudante.imprime(estudante02);
+
+        System.out.println("------------------------------");
+
+        System.out.println(estudante01.nome);
 
     }
 }
