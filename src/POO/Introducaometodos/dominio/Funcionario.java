@@ -4,7 +4,7 @@ public class Funcionario {
     public String nome;
     public int idade;
     public float [] salarios;
-
+    public float media;
 
     public void imprime(){
         System.out.println(this.nome);
@@ -15,13 +15,13 @@ public class Funcionario {
         for (float salario: this.salarios){
                 System.out.println(salario);
         }
-        mediaDosSalarios();
+        imprimeMediaASalarial();
     }
-    public void mediaDosSalarios(){
+    public void imprimeMediaASalarial(){
         if (salarios == null){
             return;
         }
-        float media =0;
+        float media = 0;
         for (float salario: this.salarios){
         media += salario;
         }
