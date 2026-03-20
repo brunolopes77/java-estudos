@@ -1,10 +1,10 @@
 package POO.Introducaometodos.dominio;
 
 public class Funcionario {
-    public String nome;
-    public int idade;
-    public float [] salarios;
-    public float media;
+    private String nome;
+    private int idade;
+    private float [] salarios;
+    private float media;
 
     public void imprime(){
         System.out.println(this.nome);
@@ -21,11 +21,40 @@ public class Funcionario {
         if (salarios == null){
             return;
         }
-        float media = 0;
+
         for (float salario: this.salarios){
         media += salario;
         }
         media /= salarios.length;
         System.out.println(media);
+
+    }
+
+    public int getIdade() {
+        return idade;
+    }
+
+    public void setIdade(int idade) {
+        this.idade = idade;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public float getMedia() {
+        return media;
+    }
+
+    public float[] getSalarios() {
+        return salarios;
+    }
+
+    public void setSalarios(float[] salarios) {
+        this.salarios = salarios;
     }
 }
