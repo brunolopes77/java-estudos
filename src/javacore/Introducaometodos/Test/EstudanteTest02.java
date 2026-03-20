@@ -1,6 +1,6 @@
-package POO.Introducaometodos.Test;
+package javacore.Introducaometodos.Test;
 
-import POO.Introducaometodos.dominio.Estudante;
+import javacore.Introducaometodos.dominio.Estudante;
 
 public class EstudanteTest02 {
     public static void main(String[] args) {

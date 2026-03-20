@@ -1,6 +1,6 @@
-package POO.Introducaoclasses.test;
+package javacore.Introducaoclasses.test;
 
-import POO.Introducaoclasses.dominio.Carro;
+import javacore.Introducaoclasses.dominio.Carro;
 
 public class CarroTest01 {
     public static void main(String[] args) {

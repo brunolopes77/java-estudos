@@ -1,4 +1,4 @@
-package POO.Introducaometodos.dominio;
+package javacore.Introducaometodos.dominio;
 
 public class Estudante {
 

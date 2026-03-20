@@ -1,6 +1,6 @@
-package POO.Introducaoclasses.test;
+package javacore.Introducaoclasses.test;
 
-import POO.Introducaoclasses.dominio.Estudante;
+import javacore.Introducaoclasses.dominio.Estudante;
 //estudante=variavel grandona/objeto
 public class EstudanteTest01 {
     public static void main(String[] args) {

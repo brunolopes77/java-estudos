@@ -1,6 +1,6 @@
-package POO.Introducaometodos.Test;
+package javacore.Introducaometodos.Test;
 
-import POO.Introducaometodos.dominio.Calculadora;
+import javacore.Introducaometodos.dominio.Calculadora;
 
 public class CalculadoraTest05 {
     public static void main(String... args) {

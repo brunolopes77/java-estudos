@@ -1,6 +1,6 @@
-package POO.Introducaometodos.Test;
+package javacore.Introducaometodos.Test;
 
-import POO.Introducaometodos.dominio.Pessoa;
+import javacore.Introducaometodos.dominio.Pessoa;
 
 public class PessoaTest01 {
     public static void main(String[] args) {

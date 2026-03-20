@@ -1,4 +1,4 @@
-package POO.Introducaoclasses.test;
+package javacore.Introducaoclasses.test;
 
 import java.util.Scanner;
 

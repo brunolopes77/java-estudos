@@ -1,4 +1,4 @@
-package POO.Introducaometodos.dominio;
+package javacore.Introducaometodos.dominio;
 
 public class ImprimeEstudante {
     public void imprime(Estudante estudante){

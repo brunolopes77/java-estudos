@@ -1,6 +1,6 @@
-package POO.Introducaometodos.Test;
+package javacore.Introducaometodos.Test;
 
-import POO.Introducaometodos.dominio.Funcionario;
+import javacore.Introducaometodos.dominio.Funcionario;
 
 public class FuncionarioTest01 {
     public static void main(String[] args) {
