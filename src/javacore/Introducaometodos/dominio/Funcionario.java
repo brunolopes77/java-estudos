@@ -3,27 +3,28 @@ package javacore.Introducaometodos.dominio;
 public class Funcionario {
     private String nome;
     private int idade;
-    private float [] salarios;
+    private float[] salarios;
     private float media;
 
-    public void imprime(){
+    public void imprime() {
         System.out.println(this.nome);
         System.out.println(this.idade);
-        if (salarios == null){
+        if (salarios == null) {
             return;
         }
-        for (float salario: this.salarios){
-                System.out.println(salario);
+        for (float salario : this.salarios) {
+            System.out.println(salario);
         }
         imprimeMediaASalarial();
     }
-    public void imprimeMediaASalarial(){
-        if (salarios == null){
+
+    public void imprimeMediaASalarial() {
+        if (salarios == null) {
             return;
         }
 
-        for (float salario: this.salarios){
-        media += salario;
+        for (float salario : this.salarios) {
+            media += salario;
         }
         media /= salarios.length;
         System.out.println(media);
