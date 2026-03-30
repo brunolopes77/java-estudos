@@ -3,7 +3,7 @@ package javacore.Fmodificadorestatico.domain;
 public class Carro {
     private String nome;
     private double velocidadeMaxima;
-    public static double velocidadeLimite = 250;//Está na classe
+    private static double velocidadeLimite = 250;//Está na classe
 
 
     public Carro(String nome, double velocidadeMaxima) {
@@ -39,7 +39,7 @@ public class Carro {
         return velocidadeLimite;
     }
 
-    public void setVelocidadeLimite(double velocidadeLimite) {
-        this.velocidadeLimite = velocidadeLimite;
+    public static void setVelocidadeLimite(double velocidadeLimite) {
+        Carro.velocidadeLimite = velocidadeLimite;
     }
 }
