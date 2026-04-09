@@ -4,7 +4,6 @@ public class Time {
     private String nome;
     private String sub;
 
-
     public Time(String nome,String sub) {
         this.nome = nome;
         this.sub = sub;
