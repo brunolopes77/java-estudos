@@ -4,16 +4,16 @@ public class Jogador {
     private String nome;
     private Time time;//é um objeto
 
+    public Jogador(String nome) {
+        this.nome = nome;
+    }
+
     public void imprime() {
         System.out.println(this.nome);
         if (time != null) {
             System.out.println(time.getNome());
             System.out.println(time.getSub());
         }
-    }
-
-    public Jogador(String nome) {
-        this.nome = nome;
     }
 
     public String getNome() {
