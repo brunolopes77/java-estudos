@@ -4,10 +4,10 @@ public class Escola {
     private String nome;
     private Professor[] professores;
 
-    public void imprime(){
+    public void imprime() {
         System.out.println(this.nome);
         if (professores == null) return;
-        for (Professor professor : professores){
+        for (Professor professor : professores) {
             System.out.println(professor.getNome());
         }
     }
@@ -30,5 +30,7 @@ public class Escola {
 
     public void setProfessores(Professor[] professores) {
         this.professores = professores;
+
     }
 }
+
