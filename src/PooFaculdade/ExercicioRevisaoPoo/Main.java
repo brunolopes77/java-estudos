@@ -2,10 +2,30 @@ package PooFaculdade.ExercicioRevisaoPoo;
 
 public class Main{
     public static void main(String[] args) {
-        Veiculo v1 = new Veiculo();
-        Veiculo v2 = new Veiculo();
+        Carro carro = new Carro(
+                "Toyota",
+                "Corolla",
+                2025,
+                0,
+                4
+        );
 
-        v1.acelerar(-10);
-        System.out.println(v1.getVelocidadeAtual());
+        Moto moto = new Moto(
+                "Honda",
+                "CG 160",
+                2024,
+                0,
+                true
+        );
+
+        carro.exibirDados();
+
+        System.out.println("Portas: " + carro.getQuantidadePortas());
+
+        System.out.println();
+
+        moto.exibirDados();
+
+        System.out.println("Partida elétrica: " + moto.isPossuiPartidaEletrica());
     }
 }

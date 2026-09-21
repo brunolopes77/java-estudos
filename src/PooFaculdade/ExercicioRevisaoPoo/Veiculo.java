@@ -7,6 +7,13 @@ public class Veiculo {
     private int ano;
     private double velocidadeAtual;
 
+    public Veiculo(String marca, String modelo, int ano, double velocidadeAtual) {
+        setMarca(marca);
+        setModelo(modelo);
+        setAno(ano);
+        setVelocidadeAtual(velocidadeAtual);
+    }
+
 
     public void exibirDados() {
         System.out.println("Marca: " + marca);
@@ -43,23 +50,32 @@ public class Veiculo {
         }
 
     }
-    public double getVelocidadeAtual(){
+
+    public double getVelocidadeAtual() {
         return velocidadeAtual;
     }
 
-    private void setVelocidadeAtual(double velocidadeAtual) {
+    protected void setVelocidadeAtual(double velocidadeAtual) {
         if (velocidadeAtual >= 0) {
             this.velocidadeAtual = velocidadeAtual;
         } else {
             throw new IllegalArgumentException("Velocidade negativa não pode ser declarada.");
         }
     }
-    public void acelerar (double valor){
-        velocidadeAtual += valor;
+
+    public void acelerar(double valor) {
+        if (valor >= 0) {
+            setVelocidadeAtual(velocidadeAtual + valor);
+        } else {
+            throw new IllegalArgumentException("Falha");
+        }
     }
 
-
     public void frear(double valor) {
-        velocidadeAtual -= valor;
+        if (valor >= 0) {
+            setVelocidadeAtual(velocidadeAtual - valor);
+        } else {
+            throw new IllegalArgumentException("Falha");
+        }
     }
 }
