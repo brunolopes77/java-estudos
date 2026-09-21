@@ -23,5 +23,9 @@ public class Moto extends Veiculo {
 
         System.out.println("Possui partida elétrica: " + possuiPartidaEletrica);
     }
+    @Override
+    public void realizarManutencao() {
+        System.out.println("Verificação da corrente e dos pneus.");
+    }
 }
 

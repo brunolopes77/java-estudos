@@ -1,6 +1,6 @@
 package PooFaculdade.ExercicioRevisaoPoo;
 
-public class Veiculo {
+public  abstract class Veiculo {
 
     private String marca;
     private String modelo;
@@ -21,6 +21,8 @@ public class Veiculo {
         System.out.println("Ano: " + ano);
         System.out.println("Velocidade: " + velocidadeAtual + " km/h");
     }
+
+    public abstract void realizarManutencao();
 
     public String getMarca() {
         return marca;

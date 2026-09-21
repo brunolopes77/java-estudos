@@ -26,5 +26,12 @@ public class Carro extends Veiculo {
 
         System.out.println("Quantidade de portas: " + quantidadePortas);
     }
+    public void setAcertatr(){
+        System.out.println("bruno");
+    }
+    @Override
+    public void realizarManutencao() {
+        System.out.println("Troca de óleo e verificação dos freios.");
+    }
 }
 
