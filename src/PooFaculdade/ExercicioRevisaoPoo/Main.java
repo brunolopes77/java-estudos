@@ -1,31 +1,17 @@
 package PooFaculdade.ExercicioRevisaoPoo;
 
-public class Main{
+public class Main {
     public static void main(String[] args) {
-        Carro carro = new Carro(
-                "Toyota",
-                "Corolla",
-                2025,
-                0,
-                4
-        );
 
-        Moto moto = new Moto(
-                "Honda",
-                "CG 160",
-                2024,
-                0,
-                true
-        );
+        Veiculo[] frota = new Veiculo[3];
 
-        carro.exibirDados();
+        frota[0] = new Carro("Toyota", "Corolla", 2025, 0, 4);
+        frota[1] = new Moto("Honda", "CG 160", 2024, 0, true);
+        frota[2] = new Carro("Volkswagen", "Golf", 2023, 0, 4);
 
-        System.out.println("Portas: " + carro.getQuantidadePortas());
-
-        System.out.println();
-
-        moto.exibirDados();
-
-        System.out.println("Partida elétrica: " + moto.isPossuiPartidaEletrica());
+        for (Veiculo veiculo : frota) {
+            veiculo.exibirDados();
+            System.out.println();
+        }
     }
 }

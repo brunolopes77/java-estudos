@@ -17,5 +17,11 @@ public class Moto extends Veiculo {
         public void setPossuiPartidaEletrica(boolean possuiPartidaEletrica) {
             this.possuiPartidaEletrica = possuiPartidaEletrica;
         }
+    @Override
+    public void exibirDados() {
+        super.exibirDados();
+
+        System.out.println("Possui partida elétrica: " + possuiPartidaEletrica);
+    }
 }
 

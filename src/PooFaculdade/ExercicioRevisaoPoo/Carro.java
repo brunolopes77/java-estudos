@@ -20,5 +20,11 @@ public class Carro extends Veiculo {
                 throw new IllegalArgumentException("Quantidade de portas inválida.");
             }
         }
+    @Override
+    public void exibirDados() {
+        super.exibirDados();
+
+        System.out.println("Quantidade de portas: " + quantidadePortas);
+    }
 }
 
