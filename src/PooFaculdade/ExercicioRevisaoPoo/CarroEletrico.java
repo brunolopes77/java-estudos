@@ -1,6 +1,6 @@
 package PooFaculdade.ExercicioRevisaoPoo;
 
-public class CarroEletrico extends Carro implements Eletrico {
+public class CarroEletrico extends Carro implements Eletrico, Conectavel, Rastreavel{
 
     private int nivelBateria;
 
@@ -19,5 +19,13 @@ public class CarroEletrico extends Carro implements Eletrico {
     @Override
     public int getNivelBateria() {
         return nivelBateria;
+    }
+    @Override
+    public void conectarInternet() {
+        System.out.println("Veículo conectado.");
+    }
+    @Override
+    public String obterLocalizacao() {
+        return "Brasília-DF";
     }
 }

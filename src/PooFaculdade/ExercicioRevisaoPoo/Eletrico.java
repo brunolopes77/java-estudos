@@ -6,3 +6,4 @@ public interface Eletrico {
 
     int getNivelBateria();
 }
+
